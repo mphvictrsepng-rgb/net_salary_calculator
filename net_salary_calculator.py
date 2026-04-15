@@ -11,8 +11,8 @@ medical_aid_premium = float(input('Medical aid premium: R'))
 # - num_dependents (for medical credits)
 num_dependents = int(input('How many dependents on your med aid?: '))
 #print(f'your gross salary is R{monthly_gross_salary: .2f} while your medical aid premium is R{medical_aid_premium}')
-print(f'your gross salary is R{monthly_gross_salary: .2f} while your medical aid premium is R{medical_aid_premium}')
-print(f'Your number of dependents is {num_dependents}')
+print(f'your gross salary is R{monthly_gross_salary: .2f} while your medical aid premium is R{medical_aid_premium}', end=" ") #to mix two print() functions
+print(f'. Your number of dependents is {num_dependents}')
 # QUESTION 2:
 # Calculate the monthly UIF contribution. 
 # Remember: It is 1% of gross salary, but it is capped at R177.12.
